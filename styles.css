@@ -24,7 +24,7 @@ body {
 .parent {
   align-items: center;
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   justify-content: center;
   padding: 2rem;
   width: 100vw;
@@ -113,7 +113,7 @@ body {
   justify-content: center;
   max-height: 5rem;
   max-width: 34rem;
-  width: 100%;
+  margin: 2rem 2.5rem 3rem 2.5rem;
 }
 
 .button {
@@ -129,9 +129,8 @@ body {
   font-weight: 700;
   height: 5rem;
   justify-content: center;
-  margin: 4rem 2rem 0 2rem;
   text-decoration: none;
-  width: 30rem;
+  width: 100%;
 }
 
 .cart {
